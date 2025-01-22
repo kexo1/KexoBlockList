@@ -7,7 +7,6 @@ instagram.com##div[class*="x1dm5mii x16mil14 xiojian x1yutycm x1lliihq x193iq5w 
 instagram.com##div[class*="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1pi30zi x1swvt13"]:has(span:contains(Suggested for you))
 instagram.com##a[href^="https://www.threads.net/"]:has(svg[viewBox="0 0 192 192"])
 
-
 ! Reddit
 ! Remove unnecesary buttons and sidebar
 reddit.com##a#advertise-button
@@ -18,5 +17,9 @@ reddit.com###reddit-trending-searches-partial-container
 reddit.com##ml-md mt-sm mb-2xs text-neutral-content-weak flex items-center
 reddit.com##ml-md mt-sm mb-2xs text-neutral-content-weak flex items-center hidden
 ! Remove NSFW search results
-www.reddit.com##details[open] > summary:has(span.text-neutral-content-weak.font-semibold.text-12:contains("NSFW"))
+reddit.com##details[open] > summary:has(span.text-neutral-content-weak.font-semibold.text-12:contains("NSFW"))
 reddit.com##details[open] > faceplate-auto-height-animator
+
+! ChatGPT
+! Remove upgrade plan button
+chatgpt.com##div[class*="flex flex-col py-2 empty:hidden dark:border-white/20"]
