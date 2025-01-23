@@ -1,0 +1,15 @@
+! Youtube
+! Hide recommendation sidebar
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+! Remove YouTube Thumbnails
+www.youtube.com##.yt-core-image--loaded.yt-core-image--content-mode-scale-aspect-fill.yt-core-image.yt-core-image--fill-parent-width.yt-core-image--fill-parent-height
+www.youtube.com##ytd-thumbnail.ytd-rich-grid-media.style-scope
+www.youtube.com##ytd-thumbnail.ytd-compact-video-renderer.style-scope
+www.youtube.com##a.ytp-suggestion-set.ytp-videowall-still-round-medium.ytp-videowall-still
+www.youtube.com##.ytp-endscreen-content
+www.youtube.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
+www.youtube.com##ytd-thumbnail.ytd-grid-video-renderer.style-scope
+www.youtube.com##ytd-notification-renderer.yt-multi-page-menu-section-renderer.style-scope > .ytd-notification-renderer.style-scope.yt-simple-endpoint > .ytd-notification-renderer.style-scope.thumbnail-container > .no-transition.ytd-notification-renderer.style-scope > .yt-img-shadow.style-scope
+! Hide voice button
+www.youtube.com##div#voice-search-button
+www.youtube.com##.ytp-airplay-button.ytp-button
