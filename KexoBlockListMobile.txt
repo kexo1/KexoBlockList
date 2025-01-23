@@ -18,3 +18,6 @@ www.youtube.com##.ytp-airplay-button.ytp-button
 www.youtube.com##button.ytp-button[data-tooltip-target-id="ytp-autonav-toggle-button"]
 ! Hide Join button
 www.youtube.com###sponsor-button
+
+! Reddit
+www.reddit.com##settings-preferences[cookiedomain=".reddit.com"][country="SK"]
