@@ -19,6 +19,7 @@ reddit.com##ml-md mt-sm mb-2xs text-neutral-content-weak flex items-center hidde
 ! Remove NSFW search results
 reddit.com##details[open] > summary:has(span.text-neutral-content-weak.font-semibold.text-12:contains("NSFW"))
 reddit.com##details[open] > faceplate-auto-height-animator
+reddit.com##faceplate-switch-input[aria-label="Show mature content (I'm over 18)"]
 
 ! ChatGPT
 ! Remove upgrade plan button
