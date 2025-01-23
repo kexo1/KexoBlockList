@@ -12,4 +12,9 @@ www.youtube.com##ytd-thumbnail.ytd-grid-video-renderer.style-scope
 www.youtube.com##ytd-notification-renderer.yt-multi-page-menu-section-renderer.style-scope > .ytd-notification-renderer.style-scope.yt-simple-endpoint > .ytd-notification-renderer.style-scope.thumbnail-container > .no-transition.ytd-notification-renderer.style-scope > .yt-img-shadow.style-scope
 ! Hide voice button
 www.youtube.com##div#voice-search-button
+! Hide AirPlay button
 www.youtube.com##.ytp-airplay-button.ytp-button
+! Hide auto play switch
+www.youtube.com##button.ytp-button[data-tooltip-target-id="ytp-autonav-toggle-button"]
+! Hide Join button
+www.youtube.com###sponsor-button
