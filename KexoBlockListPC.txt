@@ -24,3 +24,99 @@ reddit.com##faceplate-switch-input[aria-label="Show mature content (I'm over 18)
 ! ChatGPT
 ! Remove upgrade plan button
 chatgpt.com##div[class*="flex flex-col py-2 empty:hidden dark:border-white/20"]
+
+! Youtube
+! Hide "Shorts remixing this video" shelf in the description
+www.youtube.com##ytd-reel-shelf-renderer
+! Hide View Products
+www.youtube.com##.ytp-suggested-action-badge-expanded
+! Hide Includes paid promotion
+www.youtube.com##.ytp-paid-content-overlay
+! Brand image in the corner
+youtube.com##.ytp-button.branding-img-container
+! Hide "1080p Premium" in the video quality menu
+!#if env_firefox
+youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
+!#endif
+!#if env_chromium
+youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+!#endif
+! Hide horizontal scrollbar. This is only shown on Firefox (version 86 and above)
+!#if env_firefox
+www.youtube.com##ytd-app:style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
+!#endif
+! Hide Verified checkmark
+www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
+www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
+www.youtube.com##.ytd-comment-renderer #author-comment-badge
+! Hide badges (such as "New") under video recommendations on the sidebar
+www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
+! Hide "smartimation" animations
+! Hide the rainbow-colored border animation around the subscribe button
+www.youtube.com##yt-smartimation > *:not(.smartimation__content)
+! Hide the hashtags above the video title 
+www.youtube.com###description #info a[href^="/hashtag/"]
+www.youtube.com###super-title
+www.youtube.com##.super-title
+m.youtube.com##.standalone-collection-badge a[href^="/hashtag/"]
+m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="/hashtag/"]
+! Hide the copyright notice in the video description 
+www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
+m.youtube.com##ytm-video-description-music-section-renderer
+! Hide Youtube mixes and radios
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/#wiki_mixes_and_yt_playlists
+! Removes Mixes from the Main Page
+youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
+! Removes Mixes from the right side panel
+youtube.com##ytd-compact-radio-renderer
+! Removes Mixes from the right side panel (Dec 2024)
+youtube.com###related yt-lockup-view-model:has([href*="&start_radio=1&"])
+! Removes Mixes from search results
+youtube.com##ytd-radio-renderer
+! Removes Mixes from search results (Dec 2024)
+youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-label])
+! Removes Mixes from Video End Cards
+youtube.com##.ytp-videowall-still[data-is-mix="true"]
+! Removes "YouTube" (Music) playlists from the right side panel
+youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+! Hide Shorts
+! YT Homepage and Subscriptions (Grid View) - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT Search - Hide Shorts
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
+! YT Search, Channels, Subscriptions (List View) and Sidebar/Below Player Recommendations - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT Channels - Hide the Shorts tab
+www.youtube.com##[tab-title="Shorts"]
+! YT Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+! YT Sidebar - Hide Shorts
+www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+! Hide recommendation sidebar
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+! Video Overlay - annotations
+www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
+! Video Overlay - endscreen
+!||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
+! Hide buttons below search
+www.youtube.com##ytd-feed-filter-chip-bar-renderer
+! Hide voice search button
+www.youtube.com##div#voice-search-button
+! Hide next button
+www.youtube.com##.ytp-next-button.ytp-button
+! Hide autoplay toggle
+www.youtube.com##button[data-tooltip-target-id="ytp-autonav-toggle-button"]
+! Hide explore from sidebar
+www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string#guide-section-title:has-text(Explore))
+! Hide more from youtube in sidebar
+www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string#guide-section-title:has-text(More from YouTube))
+! Remove youtube footer
+www.youtube.com##div#footer
+! Remove thanks to members tab
+www.youtube.com##ytd-recognition-shelf-renderer
