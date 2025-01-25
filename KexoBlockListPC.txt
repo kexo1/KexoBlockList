@@ -103,9 +103,9 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style
 ! Video Overlay - annotations
 www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
 ! Video Overlay - endscreen
-!||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
+www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
 ! Hide buttons below search
-www.youtube.com##ytd-feed-filter-chip-bar-renderer
+www.youtube.com##[component-style="FEED_FILTER_CHIP_BAR_STYLE_TYPE_DEFAULT"]
 ! Hide voice search button
 www.youtube.com##div#voice-search-button
 ! Hide next button
