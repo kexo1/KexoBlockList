@@ -120,3 +120,5 @@ www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string#guide-sectio
 www.youtube.com##div#footer
 ! Remove thanks to members tab
 www.youtube.com##ytd-recognition-shelf-renderer
+! Remove try YouTube Kids notice under video
+www.youtube.com##div#teaser-carousel
