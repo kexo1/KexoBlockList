@@ -1,3 +1,7 @@
+! Title: Kexo Block List
+! Description: Cleans clutter/garbage from websites
+! Homepage: https://github.com/kexo1/KexoBlockList
+
 ! Instagram
 instagram.com##a[href="/reels/"]
 instagram.com##a[href="/explore/"]
