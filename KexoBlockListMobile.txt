@@ -1,3 +1,7 @@
+! Title: Kexo Block List Mobile
+! Description: Cleans clutter/garbage from mobile websites
+! Homepage: https://github.com/kexo1/KexoBlockList
+
 ! YouTube
 ! Hide recommendation sidebar
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
