@@ -34,3 +34,12 @@ m.youtube.com##[tab-title="Shorts"]
 
 ! Reddit
 www.reddit.com##settings-preferences[cookiedomain=".reddit.com"][country="SK"]
+
+! Instagram
+instagram.com##a[href="/reels/"]
+instagram.com##a[href="/explore/"]
+! Block suggested for you
+instagram.com##div[class*="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh"]:has(span:contains(Suggested for you))
+instagram.com##div[class*="x1dm5mii x16mil14 xiojian x1yutycm x1lliihq x193iq5w xh8yej3"]
+instagram.com##div[class*="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1pi30zi x1swvt13"]:has(span:contains(Suggested for you))
+instagram.com##a[href^="https://www.threads.net/"]:has(svg[viewBox="0 0 192 192"])
