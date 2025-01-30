@@ -36,6 +36,7 @@ m.youtube.com##[tab-title="Shorts"]
 www.reddit.com##settings-preferences[cookiedomain=".reddit.com"][country="SK"]
 
 ! Instagram
+! Remove reels and explore buttons
 instagram.com##a[href="/reels/"]
 instagram.com##a[href="/explore/"]
 ! Block suggested for you
