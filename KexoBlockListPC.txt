@@ -126,3 +126,7 @@ www.youtube.com##div#footer
 www.youtube.com##ytd-recognition-shelf-renderer
 ! Remove try YouTube Kids notice under video
 www.youtube.com##div#teaser-carousel
+
+! Perplexity
+! Remove useless images next to chat
+www.perplexity.ai##div[class*="isolate col-span-4"]
