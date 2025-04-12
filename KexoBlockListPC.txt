@@ -126,6 +126,8 @@ www.youtube.com##div#footer
 www.youtube.com##ytd-recognition-shelf-renderer
 ! Remove try YouTube Kids notice under video
 www.youtube.com##div#teaser-carousel
+! YT Home - No Infinite Scroll
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-continuation-item-renderer:remove()
 
 ! Perplexity
 ! Remove useless images next to chat
