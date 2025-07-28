@@ -183,3 +183,9 @@ www.perplexity.ai##div[class*="isolate col-span-4"]
 ! FreeTP
 ! Remove ADS
 freetp.org###news-id-5119 > p:nth-of-type(5) > strong > [href*="https://yourlnk.ru/r/32171/"] > [src*="/download-yb.png"]
+
+! Game3rb
+! Remove fake download buttons
+game3rb.com##.post-body.entry-content > div:nth-of-type(1) > center > .buttonPress-640 > button
+game3rb.com##.post-body.entry-content > center:nth-of-type(1) > .buttonPress-640 > button:nth-of-type(1)
+game3rb.com##button:nth-of-type(2)
