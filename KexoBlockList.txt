@@ -35,25 +35,14 @@ www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button
 m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-content"]:not(:has-text(/\d/))
 m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
 
-! Hide chat window when viewing streams
-www.youtube.com###chat:remove()
-
 ! Hide "Shorts remixing this video" shelf in the description
 www.youtube.com##ytd-reel-shelf-renderer
-
-! Don't enter / exit fullscreen on double-click 
-www.youtube.com##+js(aeld, dblclick)
 
 ! Hide View Products
 www.youtube.com##.ytp-suggested-action-badge-expanded
 
 ! Hide Includes paid promotion
 www.youtube.com##.ytp-paid-content-overlay
-
-! Hide upcoming Youtube videos
-www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
 
 ! Brand image in the corner
 youtube.com##.ytp-button.branding-img-container
@@ -87,10 +76,6 @@ www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
 ! Hide the rainbow-colored border animation around the subscribe button
 ! https://github.com/yokoffing/filterlists/pull/117
 www.youtube.com##yt-smartimation > *:not(.smartimation__content)
-
-! Prevent stats from live-updating
-! https://github.com/yokoffing/filterlists/pull/113
-||youtube.com/youtubei/v1/updated_metadata
 
 ! Hide the hashtags above the video title 
 www.youtube.com###description #info a[href^="/hashtag/"]
