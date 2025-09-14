@@ -163,6 +163,10 @@ www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-o
 www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(2)
 www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5)
 
+! Hide blank spaces in youtube recommendation
+youtube.com###primary > ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 4 !important;)
+
 ! Perplexity
 ! Remove useless images next to chat
 www.perplexity.ai##div[class*="isolate col-span-4"]
