@@ -39,6 +39,8 @@ www.perplexity.ai##.gap-xs.group.inline-flex.appearance-none.flex-col.items-cent
 www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(4)
 www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(2)
 www.perplexity.ai##.gap-sm.flex.items-center
+www.perplexity.ai##.bg-super.text-inverse.hover\:opacity-80.font-sans.focus\:outline-none.outline-none.outline-transparent.transition.duration-300.ease-out.select-none.items-center.relative.group\/button.font-semimedium.justify-center.text-center.rounded-lg.cursor-pointer.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.origin-center.whitespace-nowrap.inline-flex.text-sm.h-8.aspect-\[9\/8\]
+www.perplexity.ai##.flex.items-center.justify-self-end.col-start-3.row-start-2 > div.relative:nth-of-type(3) > .focus-visible\:bg-subtle.hover\:bg-subtle.text-quiet.hover\:text-foreground.dark\:hover\:bg-subtle.font-sans.focus\:outline-none.outline-none.outline-transparent.transition.duration-300.ease-out.select-none.items-center.relative.group\/button.font-semimedium.justify-center.text-center.rounded-lg.cursor-pointer.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.origin-center.whitespace-nowrap.inline-flex.text-sm.h-8.aspect-\[9\/8\]
 
 ! FreeTP
 ! Remove ADS
