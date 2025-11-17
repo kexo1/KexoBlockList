@@ -170,6 +170,12 @@ youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 4
 ! Perplexity
 ! Remove useless images next to chat
 www.perplexity.ai##div[class*="isolate col-span-4"]
+www.perplexity.ai##.h-bannerHeight.rounded-sm.gap-xs.px-md.md\:gap-sm.relative.flex.w-full.cursor-pointer.items-center.transition.duration-200.hover\:opacity-80.justify-center.border-subtlest.ring-subtlest.divide-subtlest.bg-super
+www.perplexity.ai##.gap-xs.flex.flex-col.items-center.\[\@media\(max-height\:680px\)\]\:hidden
+www.perplexity.ai##.gap-xs.group.inline-flex.appearance-none.flex-col.items-center.\[\@media\(max-height\:680px\)\]\:hidden
+www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(4)
+www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(2)
+www.perplexity.ai##.gap-sm.flex.items-center
 
 ! FreeTP
 ! Remove ADS
