@@ -42,6 +42,12 @@ www.perplexity.ai##.gap-sm.flex.items-center
 www.perplexity.ai##.bg-super.text-inverse.hover\:opacity-80.font-sans.focus\:outline-none.outline-none.outline-transparent.transition.duration-300.ease-out.select-none.items-center.relative.group\/button.font-semimedium.justify-center.text-center.rounded-lg.cursor-pointer.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.origin-center.whitespace-nowrap.inline-flex.text-sm.h-8.aspect-\[9\/8\]
 www.perplexity.ai##.flex.items-center.justify-self-end.col-start-3.row-start-2 > div.relative:nth-of-type(3) > .focus-visible\:bg-subtle.hover\:bg-subtle.text-quiet.hover\:text-foreground.dark\:hover\:bg-subtle.font-sans.focus\:outline-none.outline-none.outline-transparent.transition.duration-300.ease-out.select-none.items-center.relative.group\/button.font-semimedium.justify-center.text-center.rounded-lg.cursor-pointer.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.origin-center.whitespace-nowrap.inline-flex.text-sm.h-8.aspect-\[9\/8\]
 
+! Twitch
+www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .Layout-sc-1xcs6mc-0.kOoFSj
+www.twitch.tv##.Layout-sc-1xcs6mc-0.ihSefD > .InjectLayout-sc-1i43xsx-0.iDMNUO > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .Layout-sc-1xcs6mc-0.fHdBNk
+www.twitch.tv##.Layout-sc-1xcs6mc-0.iGMbNn.storiesLeftNavSection--csO9S > button
+www.twitch.tv##div.Layout-sc-1xcs6mc-0.iGMbNn.side-nav-section:nth-of-type(4)
+
 ! FreeTP
 ! Remove ADS
 freetp.org###news-id-5119 > p:nth-of-type(5) > strong > [href*="https://yourlnk.ru/r/32171/"] > [src*="/download-yb.png"]
