@@ -29,18 +29,23 @@ chatgpt.com##div[class*="flex flex-col py-2 empty:hidden dark:border-white/20"]
 chatgpt.com##.hidden.lg\:block > .inline-flex.items-center.gap-1.rounded-full.text-sm.font-medium.py-2.bg-\[\#F1F1FB\].text-\[\#5D5BD0\].hover\:bg-\[\#E4E4F6\].dark\:bg-\[\#373669\].dark\:text-\[\#DCDBF6\].dark\:hover\:bg-\[\#414071\]
 chatgpt.com##.px-3\.5.pt-1.pb-3
 
-! Perplexity
-! Remove useless images next to chat
-www.perplexity.ai##div[class*="isolate col-span-4"]
-! Remove useless buttons
-www.perplexity.ai##.h-bannerHeight.rounded-sm.gap-xs.px-md.md\:gap-sm.relative.flex.w-full.cursor-pointer.items-center.transition.duration-200.hover\:opacity-80.justify-center.border-subtlest.ring-subtlest.divide-subtlest.bg-super
-www.perplexity.ai##.gap-xs.flex.flex-col.items-center.\[\@media\(max-height\:680px\)\]\:hidden
-www.perplexity.ai##.gap-xs.group.inline-flex.appearance-none.flex-col.items-center.\[\@media\(max-height\:680px\)\]\:hidden
-www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(4)
+! Perplexity – custom declutter
+! Remove side image/column next to chat
+www.perplexity.ai##div.isolate.col-span-4
+! Remove top banner button
+www.perplexity.ai##.h-bannerHeight.bg-super.flex.items-center
+! Remove extra icon groups (center column)
+www.perplexity.ai##.gap-xs.flex.flex-col.items-center
+www.perplexity.ai##.gap-xs.group.inline-flex.flex-col.items-center
+! Remove specific nav items (2nd and 4th buttons)
 www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(2)
+www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(4)
+! Remove bottom bar items
 www.perplexity.ai##.gap-sm.flex.items-center
-www.perplexity.ai##.bg-super.text-inverse.hover\:opacity-80.font-sans.focus\:outline-none.outline-none.outline-transparent.transition.duration-300.ease-out.select-none.items-center.relative.group\/button.font-semimedium.justify-center.text-center.rounded-lg.cursor-pointer.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.origin-center.whitespace-nowrap.inline-flex.text-sm.h-8.aspect-\[9\/8\]
-www.perplexity.ai##.flex.items-center.justify-self-end.col-start-3.row-start-2 > div.relative:nth-of-type(3) > .focus-visible\:bg-subtle.hover\:bg-subtle.text-quiet.hover\:text-foreground.dark\:hover\:bg-subtle.font-sans.focus\:outline-none.outline-none.outline-transparent.transition.duration-300.ease-out.select-none.items-center.relative.group\/button.font-semimedium.justify-center.text-center.rounded-lg.cursor-pointer.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.origin-center.whitespace-nowrap.inline-flex.text-sm.h-8.aspect-\[9\/8\]
+! Remove small round action buttons (generic)
+www.perplexity.ai##.bg-super.text-inverse.inline-flex.text-sm.h-8.aspect-\[9\/8\]
+! Remove the 3rd header button on the right side
+www.perplexity.ai##.flex.items-center.justify-self-end.col-start-3.row-start-2 > div.relative:nth-of-type(3) > button.inline-flex.text-sm.h-8.aspect-\[9\/8\]
 
 ! Twitch
 www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .Layout-sc-1xcs6mc-0.kOoFSj
@@ -65,7 +70,10 @@ sktorrent.eu###mini-notification
 
 ! Youtube
 ! Hide buttons below search
-www.youtube.com##[component-style="FEED_FILTER_CHIP_BAR_STYLE_TYPE_DEFAULT"]
+www.youtube.com##ytd-watch-metadata button[aria-label="Clip"]
+www.youtube.com##ytd-watch-metadata button[aria-label="Thanks"]
+www.youtube.com##ytd-watch-metadata button[aria-label="Save"]
+
 ! Hide voice search button
 www.youtube.com##div#voice-search-button
 ! Hide next button
