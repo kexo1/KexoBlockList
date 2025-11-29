@@ -32,6 +32,8 @@ chatgpt.com##.px-3\.5.pt-1.pb-3
 ! Perplexity – custom declutter
 ! Remove side image/column next to chat
 www.perplexity.ai##div.isolate.col-span-4
+! Remove finance tab
+www.perplexity.ai##a.p-sm.gap-two.group.flex.w-full.flex-col.items-center.justify-center:nth-of-type(4)
 ! Remove top banner button
 www.perplexity.ai##.h-bannerHeight.bg-super.flex.items-center
 ! Remove extra icon groups (center column)
@@ -48,10 +50,12 @@ www.perplexity.ai##.bg-super.text-inverse.inline-flex.text-sm.h-8.aspect-\[9\/8\
 www.perplexity.ai##.flex.items-center.justify-self-end.col-start-3.row-start-2 > div.relative:nth-of-type(3) > button.inline-flex.text-sm.h-8.aspect-\[9\/8\]
 
 ! Twitch
-www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .Layout-sc-1xcs6mc-0.kOoFSj
-www.twitch.tv##.Layout-sc-1xcs6mc-0.ihSefD > .InjectLayout-sc-1i43xsx-0.iDMNUO > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .Layout-sc-1xcs6mc-0.fHdBNk
-www.twitch.tv##.Layout-sc-1xcs6mc-0.iGMbNn.storiesLeftNavSection--csO9S > button
-www.twitch.tv##div.Layout-sc-1xcs6mc-0.iGMbNn.side-nav-section:nth-of-type(4)
+! Stable method to hide Stories in sidebar
+www.twitch.tv##.side-nav-section[aria-label="Stories"]
+! Stable method to hide Recommended Channels section
+www.twitch.tv##.side-nav-section[aria-label="Recommended Channels"]
+! Stable method to hide Bits button (Get Bits)
+www.twitch.tv##button[data-a-target="bits-button"]
 
 ! FreeTP
 ! Remove ADS
