@@ -69,10 +69,9 @@ game3rb.com##button:nth-of-type(2)
 sktorrent.eu###mini-notification
 
 ! Youtube
-! Hide buttons below search
+! Hide buttons below search (Thanks, Download)
 www.youtube.com##ytd-watch-metadata button[aria-label="Clip"]
-www.youtube.com##ytd-watch-metadata button[aria-label="Thanks"]
-www.youtube.com##ytd-watch-metadata button[aria-label="Save"]
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer:nth-of-type(2)
 
 ! Hide voice search button
 www.youtube.com##div#voice-search-button
