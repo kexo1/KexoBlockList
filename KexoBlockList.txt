@@ -37,9 +37,8 @@ www.perplexity.ai##div.isolate.col-span-4
 www.perplexity.ai##a.p-sm.gap-two.group.flex.w-full.flex-col.items-center.justify-center:nth-of-type(4)
 ! Remove top banner button
 www.perplexity.ai##.h-bannerHeight.bg-super.flex.items-center
-! Remove extra icon groups (center column)
-www.perplexity.ai##.gap-xs.flex.flex-col.items-center
-www.perplexity.ai##.gap-xs.group.inline-flex.flex-col.items-center
+! Remove extra icons on left bar
+www.perplexity.ai##.gap-xs.flex.flex-col.items-center.\[\@media\(max-height\:680px\)\]\:hidden
 ! Remove specific nav items (2nd and 4th buttons)
 www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(2)
 www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(4)
