@@ -30,25 +30,18 @@ chatgpt.com##div[class*="flex flex-col py-2 empty:hidden dark:border-white/20"]
 chatgpt.com##.hidden.lg\:block > .inline-flex.items-center.gap-1.rounded-full.text-sm.font-medium.py-2.bg-\[\#F1F1FB\].text-\[\#5D5BD0\].hover\:bg-\[\#E4E4F6\].dark\:bg-\[\#373669\].dark\:text-\[\#DCDBF6\].dark\:hover\:bg-\[\#414071\]
 chatgpt.com##.px-3\.5.pt-1.pb-3
 
-! Perplexity – custom declutter
-! Remove side image/column next to chat
-www.perplexity.ai##div.isolate.col-span-4
-! Remove finance tab
-www.perplexity.ai##a.p-sm.gap-two.group.flex.w-full.flex-col.items-center.justify-center:nth-of-type(4)
-! Remove top banner button
-www.perplexity.ai##.h-bannerHeight.bg-super.flex.items-center
-! Remove extra icons on left bar
+! Perplexity
+! Remove voice button
+www.perplexity.ai##.reset.interactable.select-none.\[-webkit-user-drag\:none\].outline-none.font-semimedium.duration-300.ease-out.font-sans.text-center.items-center.justify-center.leading-loose.whitespace-nowrap.bg-super.border.border-transparent.text-inverse.h-8.text-sm.cursor-pointer.origin-center.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.inline-flex.aspect-\[9\/8\].hover\:opacity-80.rounded-lg
+! Remove finance, more and discover buttons
+www.perplexity.ai##a.reset.interactable-alt.p-sm.gap-two.group.flex.w-full.flex-col.items-center.justify-center.rounded-lg:nth-of-type(4)
+www.perplexity.ai##a.reset.interactable-alt.p-sm.gap-two.group.flex.w-full.flex-col.items-center.justify-center.rounded-lg:nth-of-type(2)
+www.perplexity.ai##button.reset.interactable-alt.p-sm.gap-two.group.flex.w-full.flex-col.items-center.justify-center.rounded-lg
+! Remove upgrade and download buttons
 www.perplexity.ai##.gap-xs.flex.flex-col.items-center.\[\@media\(max-height\:680px\)\]\:hidden
 www.perplexity.ai##.gap-xs.group.inline-flex.appearance-none.flex-col.items-center.\[\@media\(max-height\:680px\)\]\:hidden
-! Remove specific nav items (2nd and 4th buttons)
-www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(2)
-www.perplexity.ai##a.p-sm.group.flex.w-full.flex-col.items-center.justify-center.gap-0\.5:nth-of-type(4)
-! Remove bottom bar items
-www.perplexity.ai##.gap-sm.flex.items-center
-! Remove small round action buttons (generic)
-www.perplexity.ai##.bg-super.text-inverse.inline-flex.text-sm.h-8.aspect-\[9\/8\]
-! Remove the 3rd header button on the right side
-www.perplexity.ai##.flex.items-center.justify-self-end.col-start-3.row-start-2 > div.relative:nth-of-type(3) > button.inline-flex.text-sm.h-8.aspect-\[9\/8\]
+! Remove comet button
+www.perplexity.ai##.reset.interactable.select-none.\[-webkit-user-drag\:none\].outline-none.font-semimedium.duration-300.ease-out.font-sans.text-center.items-center.justify-center.leading-loose.whitespace-nowrap.bg-super.border.border-transparent.text-inverse.h-8.text-sm.cursor-pointer.origin-center.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.inline-flex.hover\:opacity-80.px-3.rounded-lg.relative
 
 ! Twitch
 www.twitch.tv##div.Layout-sc-1xcs6mc-0.VxLcr:nth-of-type(6) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > div.Layout-sc-1xcs6mc-0:nth-of-type(1) > .InjectLayout-sc-1i43xsx-0.iDMNUO > .Layout-sc-1xcs6mc-0.kOoFSj
